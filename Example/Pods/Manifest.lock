@@ -13,13 +13,13 @@ PODS:
     - DYDemoTools
   - DYDemoLogin666/3_Controller (0.0.1):
     - DYDemoTools
-  - DYDemoTools (0.0.1):
-    - DYDemoTools/0_Base (= 0.0.1)
-    - DYDemoTools/1_Tools (= 0.0.1)
-    - DYDemoTools/2_View (= 0.0.1)
-  - DYDemoTools/0_Base (0.0.1)
-  - DYDemoTools/1_Tools (0.0.1)
-  - DYDemoTools/2_View (0.0.1)
+  - DYDemoTools (0.0.3):
+    - DYDemoTools/0_Base (= 0.0.3)
+    - DYDemoTools/1_Tools (= 0.0.3)
+    - DYDemoTools/2_View (= 0.0.3)
+  - DYDemoTools/0_Base (0.0.3)
+  - DYDemoTools/1_Tools (0.0.3)
+  - DYDemoTools/2_View (0.0.3)
 
 DEPENDENCIES:
   - DYDemoLogin666 (from `../`)
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DYDemoLogin666: 243a391afd2a1ff10714e66a3d9199721046abc8
-  DYDemoTools: 922227220bf194080a1a507d42af2d8c05e059f9
+  DYDemoTools: 69f5f6c51dcc183e243a35d3313c077a0f75a31b
 
 PODFILE CHECKSUM: f443f8850784b321767ca2cb2c15ba8dd9dba51f
 
