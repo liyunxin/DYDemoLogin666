@@ -16,8 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.layer.contentsGravity = kCAGravityResizeAspect;
-    self.view.layer.contents = (id)[DYDemoTools getToolsBundleImage:@"img1"].CGImage;
+    
+    __weak typeof(self) weakSelf = self;
+    self.navigationItem.rightBarButtonItem = [[KHBarButton rightBtnWithTitle:@"个人信息" Color:[UIColor blackColor] ClickOption:^{
+        [weakSelf.navigationController pushViewController:[[CTMediator sharedInstance] ingoVC] animated:YES];
+    }] getBarItem];
+    
+    self.navigationItem.leftBarButtonItem = [[KHBarButton leftBtnWithTitle:@"关于我们" Color:[UIColor blackColor] ClickOption:^{
+        NSString *urlStr = @"dydemo666://DYDemoLogin/AboutVC?name=heiheihei";
+        UIViewController *vc = [[CTMediator sharedInstance] performActionWithUrl:[NSURL URLWithString:urlStr] completion:nil];
+        [weakSelf.navigationController pushViewController:vc animated:YES];
+    }] getBarItem];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
