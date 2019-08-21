@@ -1,0 +1,6 @@
+framework module Pods_DYDemoLogin666 {
+  umbrella header "Pods-DYDemoLogin666-umbrella.h"
+
+  export *
+  module * { export * }
+}

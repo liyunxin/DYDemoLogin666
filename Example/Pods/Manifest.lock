@@ -1,0 +1,42 @@
+PODS:
+  - DYDemoLogin666 (0.0.1):
+    - DYDemoLogin666/0_Base (= 0.0.1)
+    - DYDemoLogin666/1_Tools (= 0.0.1)
+    - DYDemoLogin666/2_Data (= 0.0.1)
+    - DYDemoLogin666/3_Controller (= 0.0.1)
+    - DYDemoTools
+  - DYDemoLogin666/0_Base (0.0.1):
+    - DYDemoTools
+  - DYDemoLogin666/1_Tools (0.0.1):
+    - DYDemoTools
+  - DYDemoLogin666/2_Data (0.0.1):
+    - DYDemoTools
+  - DYDemoLogin666/3_Controller (0.0.1):
+    - DYDemoTools
+  - DYDemoTools (0.0.1):
+    - DYDemoTools/0_Base (= 0.0.1)
+    - DYDemoTools/1_Tools (= 0.0.1)
+    - DYDemoTools/2_View (= 0.0.1)
+  - DYDemoTools/0_Base (0.0.1)
+  - DYDemoTools/1_Tools (0.0.1)
+  - DYDemoTools/2_View (0.0.1)
+
+DEPENDENCIES:
+  - DYDemoLogin666 (from `../`)
+  - DYDemoTools
+
+SPEC REPOS:
+  http://github.com/liyunxin/DYDemoSpecs.git:
+    - DYDemoTools
+
+EXTERNAL SOURCES:
+  DYDemoLogin666:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DYDemoLogin666: 243a391afd2a1ff10714e66a3d9199721046abc8
+  DYDemoTools: 922227220bf194080a1a507d42af2d8c05e059f9
+
+PODFILE CHECKSUM: f443f8850784b321767ca2cb2c15ba8dd9dba51f
+
+COCOAPODS: 1.7.3
